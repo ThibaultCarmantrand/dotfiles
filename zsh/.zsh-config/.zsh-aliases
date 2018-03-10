@@ -1,0 +1,36 @@
+#-------------------------------------------------------------------------------
+# Standard aliases
+#-------------------------------------------------------------------------------
+
+alias reload-zsh="source $HOME/.zshrc"
+alias q="exit"
+
+# APT aliases
+alias apti="sudo apt install"
+alias aptu="sudo apt update"
+alias aptup="sudo apt upgrade"
+alias aptr="sudo apt remove"
+alias aptar="sudo apt autoremove"
+alias apts="apt search"
+# Function to add PPA
+addppa() {
+  sudo add-apt-repository ppa:$1
+}
+
+
+#-------------------------------------------------------------------------------
+# Suffix aliases
+#-------------------------------------------------------------------------------
+
+alias -s js="$EDITOR "
+alias -s css="$EDITOR "
+alias -s scss="$EDITOR "
+alias -s php="$EDITOR "
+alias -s py="$EDITOR "
+
+
+#-------------------------------------------------------------------------------
+# Global aliases
+#-------------------------------------------------------------------------------
+
+alias -g G="| grep"
