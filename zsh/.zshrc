@@ -33,6 +33,7 @@ antigen bundle zdharma/fast-syntax-highlighting
 antigen bundle MichaelAquilina/zsh-you-should-use
 antigen bundle hlissner/zsh-autopair
 antigen bundle colored-man-pages
+antigen bundle command-not-found
 
 
 # ------------------------------------------------------------------------------
