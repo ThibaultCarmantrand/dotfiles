@@ -1,0 +1,28 @@
+[global_config]
+  enabled_plugins = APTURLHandler, LaunchpadCodeURLHandler, LaunchpadBugURLHandler
+  title_font = Fira Mono 9
+  title_hide_sizetext = True
+  title_inactive_fg_color = "#1a1a1a"
+  title_receive_fg_color = "#292929"
+  title_transmit_bg_color = "#cbcbcb"
+  title_transmit_fg_color = "#292929"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.93
+    background_image = None
+    background_type = transparent
+    cursor_color = "#c6c6c6"
+    cursor_shape = ibeam
+    font = Fira Mono 10
+    use_system_font = False

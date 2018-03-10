@@ -4,6 +4,7 @@
 
 alias reload-zsh="source $HOME/.zshrc"
 alias q="exit"
+alias top="htop"
 
 # APT aliases
 alias apti="sudo apt install"
