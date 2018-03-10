@@ -13,11 +13,14 @@ alias aptup="sudo apt upgrade"
 alias aptr="sudo apt remove"
 alias aptar="sudo apt autoremove"
 alias apts="apt search"
-# Function to add PPA
-addppa() {
+# Add PPA
+addppa () {
   sudo add-apt-repository ppa:$1
 }
-
+## Remove PPA
+delppa () {
+  sudo add-apt-repository --remove ppa:$1
+}
 
 #-------------------------------------------------------------------------------
 # Global aliases
