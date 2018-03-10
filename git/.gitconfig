@@ -1,0 +1,8 @@
+[user]
+	name = Thibault Carmantrand
+	email = thibault.carmantrand@protonmail.com
+[core]
+	editor = atom
+	autocrlf = input
+[color]
+	ui = true
