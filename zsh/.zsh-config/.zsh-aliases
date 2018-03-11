@@ -5,6 +5,7 @@
 alias reload-zsh="source $HOME/.zshrc"
 alias q="exit"
 alias top="htop"
+alias vim="nvim"
 
 # APT aliases
 alias apti="sudo apt install"
@@ -13,11 +14,13 @@ alias aptup="sudo apt upgrade"
 alias aptr="sudo apt remove"
 alias aptar="sudo apt autoremove"
 alias apts="apt search"
+
 # Add PPA
 addppa () {
   sudo add-apt-repository ppa:$1
 }
-## Remove PPA
+
+# Remove PPA
 delppa () {
   sudo add-apt-repository --remove ppa:$1
 }
